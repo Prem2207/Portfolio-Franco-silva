@@ -21,10 +21,10 @@ const Footer = () => {
 
                 {/* Link */}
                 <section className='text-white grid gap-1 justify-end md:flex md:gap-6  '>
-                <a href="">Home</a>
-                <a href="">Project</a>
-                <a href="">About me</a>
-                <a href="">Contact me</a>
+                <a href="#Header">Home</a>
+                <a href="#Project">Project</a>
+                <a href="#">About me</a>
+                <a href="#Contact">Contact me</a>
                 </section>
             </article>
         </section>

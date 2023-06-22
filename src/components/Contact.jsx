@@ -1,9 +1,18 @@
 import React from 'react'
 import emailjs from '@emailjs/browser';
+import swal from "sweetalert"
 export const Contact = () => {
-
+    const showAlert = () => {
+        swal({
+            title:"este es el titulo",
+            text:"este es el cuerpo",
+            icon:"success",
+            button:"aceptar"
+        })
+    }
     const handleSubmit = (e) =>{
         e.preventDefault()
+        
         emailjs.sendForm(
         import.meta.env.VITE_APP_SERVICE_ID, 
         import.meta.env.VITE_APP_TEMPLATE_ID, 
@@ -47,7 +56,7 @@ export const Contact = () => {
                 </div>
                 <div className='  items-center mx-auto border-white border-[2px] 
             rounded-[10px] max-w-max'>
-                <button className='text-white text-[14px] 
+                <button onClick={()=>showAlert()} className='text-white text-[14px] 
                 font-semibold p-2 '>LET’ GET STARTED</button>
                 </div>
                 

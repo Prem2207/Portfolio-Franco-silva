@@ -10,8 +10,8 @@ const Footer = () => {
                     <h2 className='text-white font-bold text-2xl'>S.FRANCO</h2>
                    
                     <div className='flex gap-2'>
-                    <i className=' text-3xl text-violet bx bxl-instagram-alt'></i>
-                    
+
+                    <a href="https://wa.me/543816196211" target='_blank'><i className=' text-3xl text-violet bx bxl-whatsapp'></i></a>
                     <a href='https://linkedin.com/in/franco-gabriel-silva/' target='_blank'><i className=' text-3xl text-violet bx bxl-linkedin-square' ></i></a>
                     <a href='https://github.com/' target='_blank'><i className=' text-3xl text-violet bx bxl-github'></i> </a>
                         
@@ -23,7 +23,7 @@ const Footer = () => {
                 <section className='text-white grid gap-1 justify-end md:flex md:gap-6  '>
                 <a href="#Header">Home</a>
                 <a href="#Project">Project</a>
-                <a href="#">About me</a>
+                <a href="#AboutMe">About me</a>
                 <a href="#Contact">Contact me</a>
                 </section>
             </article>

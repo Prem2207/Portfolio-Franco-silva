@@ -17,20 +17,11 @@ const Header = () => {
                     Front end
                     developed.
                 </h3>
-                <p className='py-2 lg:w-[400px] lg:[70px]'>I’m probably the most passionate developer
-                    you will ever get to work with. If you have a
-                    great project that needs some amazing skills,
-                    I’m your guy.</p>
+                <p className='py-2 lg:w-[400px] lg:[70px]'>I am a web development professional, certified and prepared to take on the challenges assigned to me. I have knowledge in JavaScript, HTML, CSS and React.js. Always open to learn new technologies.</p>
 
 
 
-                <div className=' flex items-center m-3 border-white border-[2px] w-[100px] h-[25px]
-            rounded-[10px] lg:ml-[100px] '>
-                    <button className='text-white text-[14px] 
-                font-semibold p-3 '>
-                        Click here
-                    </button>
-                </div>
+               
 
 
             </section>

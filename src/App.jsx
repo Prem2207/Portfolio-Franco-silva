@@ -1,10 +1,12 @@
 
 import './App.css'
+import { AboutMe } from './components/AboutMe'
 import { Contact } from './components/Contact'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import NavBar from './components/NavBar'
 import Project from './components/Project'
+
 
 function App() {
   
@@ -15,6 +17,7 @@ function App() {
         
         <NavBar/>
         <Header/>
+        <AboutMe/>
         <Project/>
         <Contact/>
         <Footer/>

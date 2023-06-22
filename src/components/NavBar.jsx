@@ -18,7 +18,7 @@ const NavBar = () => {
              pb-2 md:static md:flex md:pb-0 md:justify-center md:text-[17px] md:gap-11 `}>
                 <a className='hover:bg-gray-50 p-4 duration-200' href="#Header">Home</a>
                 <a className=' hover:bg-gray-50 p-4 duration-200' href="#Project">Project</a>
-                <a className=' hover:bg-gray-50 p-4 duration-200' href="#">About me</a>
+                <a className=' hover:bg-gray-50 p-4 duration-200' href="#AboutMe">About me</a>
                 <a className=' hover:bg-gray-50 p-4 duration-200' href="#Contact">Contact me</a>
             </nav>
         </header>

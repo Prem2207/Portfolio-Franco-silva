@@ -10,11 +10,12 @@ export const AboutMe = () =>{
             <p className='py-2 lg:w-[1200px] lg:[70px]'>I have experience programming Front-end with javaScript using the React library and giving styles with CSS.</p>
             <p className='py-2 lg:w-[1200px] lg:[70px] mb-4'>I am a family person with a lot of empathy towards other people, friendly and with an impeccable morality.</p>
             
-            <div className=' flex items-center  border-violet border-[3px] w-[145px] h-[25px]
+            <div className=' flex items-center  border-violet border-[3px] w-[208px] h-[25px]
             rounded-[10px]'>
-                    <a href="../public/downloadableFiles/cv_franco_silva.docx" className='text-violet text-[18px] 
+                    <a href="https://docs.google.com/document/d/1Z9gSP2JYIobs8v83oLL2cUj8jGBPohJM/edit?usp=sharing&ouid=103761663462019781738&rtpof=true&sd=true" 
+                    target="blank" className='text-violet text-[18px] 
                 font-bold p-3 '>
-                        Download cv
+                        See curriculum vitae
                     </a>
                     
                 </div>

@@ -4,10 +4,10 @@ import swal from "sweetalert"
 export const Contact = () => {
     const showAlert = () => {
         swal({
-            title:"este es el titulo",
-            text:"este es el cuerpo",
+            title:"Your message has been sent and received!!",
+            text:"Thank you very much for your message, it will be answered as soon as possible.",
             icon:"success",
-            button:"aceptar"
+            button:"accept"
         })
     }
     const handleSubmit = (e) =>{
